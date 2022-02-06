@@ -1,0 +1,48 @@
+{
+  "id": "manhunt3",
+  "version": "${version}",
+  "schemaVersion": 1,
+  "contact": {
+    "sources": "https://github.com/Featurehouse/manhunt3",
+    "issues": "https://github.com/Featurehouse/manhunt3/issues",
+    "email": "tedexe_work.top@foxmail.com"
+  },
+  "description": "Dream's Manhunt Game (unofficial)",
+  "name": "Manhunt III",
+  "authors": [
+    "teddyxlandlee"
+  ],
+  "contributors": [
+    "YTG123"
+  ],
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "org.featurehouse.mcmod.manhunt3.Manhunt3"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "org.featurehouse.mcmod.manhunt3.ManhuntClient"
+      }
+    ]
+  },
+  "depends": {
+    "java": ">=17",
+    "fabric-loader": ">=0.12.0",
+    "minecraft": ">1.17.1",
+
+    "fabric-command-api-v1": "*",
+    "fabric-events-interaction-v0": "*",
+    "fabric-networking-api-v1": "*",
+    "fabric-lifecycle-events-v1": "*"
+  },
+  "recommends": {
+    "fabric-resource-loader-v0": "*"
+  },
+  "conflicts": {
+    "manhunt-base": "2.x"
+  }
+}

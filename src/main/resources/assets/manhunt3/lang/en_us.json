@@ -1,0 +1,27 @@
+{
+  "commands.manhunt3.speedrunners.get": "Speedrunners are:\n%s",
+  "commands.manhunt3.speedrunners.none": "No speedrunners set",
+  "commands.manhunt3.speedrunners.already": "%s is already a speedrunner",
+  "commands.manhunt3.speedrunners.add": "%s is now a speedrunner",
+  "commands.manhunt3.speedrunners.clear": "Speedrunners are cleared",
+  "commands.manhunt3.speedrunners.remove": "%s is removed from speedrunner list",
+  "commands.manhunt3.speedrunners.remove.fail": "%s was not a speedrunner yet",
+  "commands.manhunt3.hunters.get": "Hunters are:\n%s",
+  "commands.manhunt3.hunters.none": "No hunters set",
+  "commands.manhunt3.hunters.already": "%s is already a hunter",
+  "commands.manhunt3.hunters.add": "%s is now a hunter",
+  "commands.manhunt3.hunters.clear": "Hunters are cleared",
+  "commands.manhunt3.hunters.remove": "%s is removed from hunter list",
+  "commands.manhunt3.hunters.remove.fail": "%s was not a hunter yet",
+
+  "commands.manhunt3.both": "Player %s (UUID=%s) is set to both a speedrunner and a hunter",
+  "commands.manhunt3.cache.clear": "Resending mod installation checking packet to %d player(s)",
+
+  "game.manhunt3.start.5s": "Manhunt Game will start in 5 seconds...",
+  "game.manhunt3.start": "Game Starts!",
+  "game.manhunt3.start.already": "Manhunt Game has already started or scheduled",
+  "game.manhunt3.stop": "Manhunt Game Stops!",
+
+  "game.manhunt3.dragon.hunter": "Hunter %s killed the dragon!",
+  "game.manhunt3.dragon.speedrunner": "Speedrunner %s killed the dragon!"
+}

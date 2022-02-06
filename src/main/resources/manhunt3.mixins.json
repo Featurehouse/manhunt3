@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.featurehouse.mcmod.manhunt3.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LevelPropertiesMixin",
+    "ManhuntServerMixin",
+    "PlayerEntityMixin",
+    "ServerWorldPropertiesMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "commands.manhunt3.speedrunners.get": "速通者：\n%s",
+  "commands.manhunt3.speedrunners.none": "暂无速通者",
+  "commands.manhunt3.speedrunners.already": "%s 已经是速通者了",
+  "commands.manhunt3.speedrunners.add": "将 %s 设为速通者",
+  "commands.manhunt3.speedrunners.clear": "已清空速通者名单",
+  "commands.manhunt3.speedrunners.remove": "已将 %s 移出速通者名单",
+  "commands.manhunt3.speedrunners.remove.fail": "%s 不是速通者",
+  "commands.manhunt3.hunters.get": "猎人：\n%s",
+  "commands.manhunt3.hunters.none": "暂无猎人",
+  "commands.manhunt3.hunters.already": "%s 已经是猎人了",
+  "commands.manhunt3.hunters.add": "将 %s 设为猎人",
+  "commands.manhunt3.hunters.clear": "已清空猎人名单",
+  "commands.manhunt3.hunters.remove": "已将 %s 移出猎人名单",
+  "commands.manhunt3.hunters.remove.fail": "%s 不是猎人",
+  "commands.manhunt3.both": "玩家 %s (UUID=%s) 被同时设置成了猎人和速通者",
+  "commands.manhunt3.cache.clear": "重新向 %d 个玩家发包，以检验是否在客户端安装了 Manhunt III",
+  "game.manhunt3.start.5s": "猎人游戏将在 5 秒中后开始",
+  "game.manhunt3.start": "游戏开始！",
+  "game.manhunt3.start.already": "猎人游戏已经开始，或已经计划开始",
+  "game.manhunt3.stop": "猎人游戏结束！",
+  "game.manhunt3.dragon.hunter": "猎人 %s 击败了末影龙！",
+  "game.manhunt3.dragon.speedrunner": "速通者 %s 击败了末影龙！"
+
+}
