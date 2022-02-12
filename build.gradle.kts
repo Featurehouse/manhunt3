@@ -4,7 +4,7 @@ plugins {
 }
 
 object Constants {
-    const val modVersion = "3.0.0-alpha.1"
+    const val modVersion = "3.0.0-alpha.2"
     const val modName = "manhunt3"
     const val mavenGroup = "org.featurehouse.mcmod"
 
@@ -45,8 +45,7 @@ tasks {
     }
     withType<JavaCompile> { options.encoding = "UTF-8" }
     withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-        sourceCompatibility = "17"
-        targetCompatibility = "17"
+        kotlinOptions.jvmTarget = "17"
     }
 
     jar {

@@ -1,5 +1,5 @@
-@file:JvmName("CommandsKt")
-@file:JvmMultifileClass
+//@file:JvmName("CommandsKt")
+//@file:JvmMultifileClass
 
 package org.featurehouse.mcmod.manhunt3.command
 
