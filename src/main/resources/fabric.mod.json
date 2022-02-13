@@ -15,6 +15,12 @@
   "contributors": [
     "YTG123"
   ],
+  "environment": "*",
+  "mixins": [
+    "manhunt3.mixins.json"
+  ],
+  "license": "AGPL-3.0",
+  "icon": "assets/manhunt3/icon.png",
   "entrypoints": {
     "main": [
       {
