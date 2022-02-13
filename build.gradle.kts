@@ -4,7 +4,7 @@ plugins {
 }
 
 object Constants {
-    const val modVersion = "3.0.0-alpha.2"
+    const val modVersion = "3.0.0-alpha.3"
     const val modName = "manhunt3"
     const val mavenGroup = "org.featurehouse.mcmod"
 

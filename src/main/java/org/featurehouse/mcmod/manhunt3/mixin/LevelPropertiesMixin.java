@@ -11,15 +11,11 @@ import net.minecraft.util.registry.DynamicRegistryManager;
 import net.minecraft.world.gen.GeneratorOptions;
 import net.minecraft.world.level.LevelInfo;
 import net.minecraft.world.level.LevelProperties;
-import net.minecraft.world.level.ServerWorldProperties;
 import net.minecraft.world.level.storage.SaveVersionInfo;
-import org.apache.logging.log4j.Logger;
 import org.featurehouse.mcmod.manhunt3.ManhuntServerProperties;
 import org.featurehouse.mcmod.manhunt3.ManhuntUtils;
 import org.jetbrains.annotations.NotNull;
-import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -32,25 +28,8 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-@Mixin(ServerWorldProperties.class)
-@SuppressWarnings("unused")
-interface ServerWorldPropertiesMixin extends ManhuntServerProperties {
-    @Override
-    default boolean getManhunt3_speedrunning() { return false; }
-    @Override
-    default void setManhunt3_speedrunning(boolean manhunt3_speedrunning) {}
-    @NotNull @Override
-    default Set<UUID> getManhunt3_hunters() { return Set.of(); }
-    @Override
-    default void setManhunt3_hunters(@NotNull Set<UUID> manhunt3_hunters) {}
-    @NotNull @Override
-    default Set<UUID> getManhunt3_speedrunners() {return Set.of(); }
-    @Override
-    default void setManhunt3_speedrunners(@NotNull Set<UUID> manhunt3_speedrunners) {}
-}
-
 @Mixin(LevelProperties.class)
-class LevelPropertiesMixin implements ManhuntServerProperties {
+public class LevelPropertiesMixin implements ManhuntServerProperties {
     @Unique private final ManhuntServerProperties manhunt3_prop = new Impl();
 
     @Inject(method = "readProperties", at = @At("RETURN"))

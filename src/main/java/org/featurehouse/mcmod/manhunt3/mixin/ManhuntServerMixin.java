@@ -11,7 +11,7 @@ import java.util.Collection;
 import java.util.LinkedHashSet;
 
 @Mixin(MinecraftServer.class)
-class ManhuntServerMixin implements ManhuntServer {
+public class ManhuntServerMixin implements ManhuntServer {
     @Unique private final Collection<ServerPlayerEntity> manhunt3_moddedPlayers
             = new LinkedHashSet<>();
     @Unique private int manhunt3_waitingForManhuntGameStart;
