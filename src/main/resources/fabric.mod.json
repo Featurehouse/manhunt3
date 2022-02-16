@@ -31,7 +31,7 @@
   },
   "depends": {
     "java": ">=17",
-    "fabric-loader": ">=0.12.0",
+    "fabricloader": ">=0.12.0",
     "minecraft": ">1.17.1",
 
     "fabric-command-api-v1": "*",
@@ -44,5 +44,9 @@
   },
   "conflicts": {
     "manhunt-base": "2.x"
+  },
+  "mixins": ["manhunt3.mixins.json"],
+  "custom": {
+  	"temporary": true
   }
 }
